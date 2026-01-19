@@ -357,6 +357,15 @@
   .p-1 {
     padding: calc(var(--spacing) * 1);
   }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
+  }
+  .p-\[2\] {
+    padding: 2;
+  }
+  .p-\[2px\] {
+    padding: 2px;
+  }
   .p-\[4px\] {
     padding: 4px;
   }
@@ -389,6 +398,9 @@
   }
   .pl-\[8px\] {
     padding-left: 8px;
+  }
+  .text-center {
+    text-align: center;
   }
   .underline {
     text-decoration-line: underline;
